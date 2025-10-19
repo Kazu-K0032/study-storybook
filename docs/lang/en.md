@@ -1,25 +1,8 @@
-# Template Todo App
+# Study Storybook
 
 [日本語](../../README.md) | English
 
-Todo application using Next.js/Antd
-
-## Implemented UI
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-    <figure>
-        <img src="../images/ui-1.png" />
-        <figcaption>Task Management (/tasks)</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/ui-2.png" />
-        <figcaption>Account Management (/accounts)</figcaption>
-    </figure>
-    <figure>
-        <img src="../images/ui-3.png" />
-        <figcaption>Create New Account (/accounts/new)</figcaption>
-    </figure>
-</div>
+Storybook learning application
 
 ## Setup Instructions
 
@@ -27,7 +10,7 @@ Todo application using Next.js/Antd
 
    ```bash
    git clone <repository-url>
-   cd template-todo-app
+   cd study-storybook
    ```
 
 2. Install dependencies
@@ -57,4 +40,4 @@ Todo application using Next.js/Antd
 
 5. Verify the setup
    - Access `http://localhost:3000` in your browser
-   - Check account management and task management features
+   - Check the Storybook learning application features

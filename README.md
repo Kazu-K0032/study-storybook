@@ -1,25 +1,8 @@
-# Template Todo App
+# Study Storybook
 
 [English](./docs/lang/en.md) | 日本語
 
-Next.js/Antd を使用した Todo アプリケーション
-
-## 実装 UI
-
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;">
-    <figure>
-        <img src="./docs/images/ui-1.png" />
-        <figcaption>タスク管理(/tasks)</figcaption>
-    </figure>
-    <figure>
-        <img src="./docs/images/ui-2.png" />
-        <figcaption>アカウント管理(/accounts)</figcaption>
-    </figure>
-    <figure>
-        <img src="./docs/images/ui-3.png" />
-        <figcaption>新規アカウント作成(/accounts/new)</figcaption>
-    </figure>
-</div>
+Storybook 学習アプリケーション
 
 ## セットアップ手順
 
@@ -27,7 +10,7 @@ Next.js/Antd を使用した Todo アプリケーション
 
    ```bash
    git clone <repository-url>
-   cd template-todo-app
+   cd study-storybook
    ```
 
 2. 依存関係のインストール
