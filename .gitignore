@@ -39,3 +39,10 @@ next-env.d.ts
 
 .swc/
 mcp.json
+
+*storybook.log
+storybook-static
+
+# Storybook sample files
+src/stories/
+.storybook/
