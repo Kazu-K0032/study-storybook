@@ -11,7 +11,26 @@ const meta: Meta<typeof Circle> = {
       }
     }
   },
-  tags: ["autodocs"]
+  tags: ["autodocs"],
+  parameters: {
+    docs: {
+      description: {
+        component: "様々な色のバリエーションを持つサークルコンポーネントです。UIの装飾やステータス表示に使用できます。"
+      }
+    }
+  },
+  decorators: [
+    (Story) => (
+      <div style={{
+        padding: "20px",
+        backgroundColor: "#f5f5f5",
+        display: "flex",
+        justifyContent: "center",
+      }}>
+        <Story />
+      </div>
+    )
+  ]
 };
 
 export default meta;
@@ -24,6 +43,12 @@ type Story = StoryObj<typeof meta>;
 export const BaseCircle: Story =  {
   args: {
     variant: "orange",
+  },
+  parameters: {
+    // インタラクションの設定
+    actions: {
+      handles: ['onClick', 'onHover']
+    }
   }
 }
 /**
@@ -57,3 +82,4 @@ export const GroupedCircles: Story = {
     )
   }
 }
+
